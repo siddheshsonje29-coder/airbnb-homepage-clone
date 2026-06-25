@@ -15,7 +15,7 @@ function App() {
   }, [theme, setTheme]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="flex flex-col min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-300">
         <Navbar />
         <div className="flex-grow">
