@@ -32,7 +32,7 @@ Designed to demonstrate recruiter-ready code quality, clean architecture, and an
 
 ## 🚀 Live Demo
 
-> 🔗 **[Click here to view the live demo](https://airbnb-homepage-clone-siddhesh.vercel.app)**
+> 🔗 **[Click here to view the live demo](https://airbnb-homepage-clone-rho.vercel.app/)**
 
 *Deployed on Vercel — live and always up to date with the `main` branch.*
 
@@ -206,14 +206,6 @@ npm install -g vercel
 vercel --prod
 ```
 
----
-
-
-> ```
-> /* /index.html 200
-> ```
-
----
 
 ## 🔑 Environment Variables
 
@@ -259,16 +251,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
-
-
-[![GitHub](https://img.shields.io/badge/GitHub-siddheshsonje29-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddheshsonje29)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/siddheshsonje29)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5A5F?style=for-the-badge&logo=airbnb&logoColor=white)](https://siddheshsonje29.github.io)
-
-
 </div>
-
----
-
-
 </div>
