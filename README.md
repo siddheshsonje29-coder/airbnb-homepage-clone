@@ -208,19 +208,7 @@ vercel --prod
 
 ---
 
-### 🌍 Deploy on Netlify
 
-1. Push your code to GitHub.
-2. Go to [netlify.com](https://netlify.com) and click **"Add new site" → "Import an existing project"**.
-3. Connect your GitHub repository.
-4. Configure the build settings:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-5. Add your [environment variables](#-environment-variables) in the Netlify dashboard under **Site settings → Environment variables**.
-6. Click **"Deploy site"**.
-
-> **⚠️ Important for Netlify SPA routing:** Create a `public/_redirects` file with the following content to handle client-side routing:
->
 > ```
 > /* /index.html 200
 > ```
@@ -245,40 +233,6 @@ VITE_AI_API_BASE_URL=https://your-ai-api-endpoint.com
 >
 > Never commit your `.env` file — it's already listed in `.gitignore`.
 
----
-
-## 📸 Screenshots
-
-<table>
-  <tr>
-    <td align="center"><strong>🏠 Homepage — Light Mode</strong></td>
-    <td align="center"><strong>🌙 Homepage — Dark Mode</strong></td>
-  </tr>
-  <tr>
-    <td><img src="./public/screenshots/home-light.png" alt="Homepage Light Mode" width="100%"/></td>
-    <td><img src="./public/screenshots/home-dark.png" alt="Homepage Dark Mode" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🗺️ Map View</strong></td>
-    <td align="center"><strong>🏡 Property Details</strong></td>
-  </tr>
-  <tr>
-    <td><img src="./public/screenshots/map-view.png" alt="Map View" width="100%"/></td>
-    <td><img src="./public/screenshots/property-details.png" alt="Property Details" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🤖 AI Travel Assistant</strong></td>
-    <td align="center"><strong>❤️ Wishlist Page</strong></td>
-  </tr>
-  <tr>
-    <td><img src="./public/screenshots/ai-assistant.png" alt="AI Travel Assistant" width="100%"/></td>
-    <td><img src="./public/screenshots/wishlist.png" alt="Wishlist" width="100%"/></td>
-  </tr>
-</table>
-
-> **📸 Note:** Replace the placeholder paths above with actual screenshots from your project. Store screenshots in `public/screenshots/`.
-
----
 
 ## 🔮 Future Enhancements
 
@@ -294,31 +248,6 @@ VITE_AI_API_BASE_URL=https://your-ai-api-endpoint.com
 - [ ] 🤖 **Enhanced AI Planner** — Multi-turn conversation with itinerary export
 
 ---
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are always welcome! 🎉
-
-1. **Fork** the repository
-2. **Create** your feature branch:
-   ```bash
-   git checkout -b feature/your-amazing-feature
-   ```
-3. **Commit** your changes (follow [Conventional Commits](https://www.conventionalcommits.org/)):
-   ```bash
-   git commit -m "feat: add your amazing feature"
-   ```
-4. **Push** to your branch:
-   ```bash
-   git push origin feature/your-amazing-feature
-   ```
-5. Open a **Pull Request** on GitHub and describe your changes clearly.
-
-### Code Style
-
-- Run `npm run lint` before submitting a PR.
-- Follow the existing TypeScript and component conventions.
-- Keep components small, focused, and reusable.
 
 ---
 
